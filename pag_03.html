@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão HTML</title>
+</head>
+
+<body>
+    <h1>Página 3</h1>
+    <h2>Formulário</h2>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Viagem</legend>
+            <label for="cidade">Cidade:</label>
+            <input type="text" name="Cidade" id="cidade">obrigatório
+            <br>
+            <label for="CEP">CEP:</label>
+            <input type="tel" name="CEP" id="CEP" placeholder="12345-123" pattern="[0-9]{5}-[0-9]{3}" required>Exigir este formato no preenchimento
+            <br>
+            <label for="praia">Praia:</label>
+            <input type="text" name="Praia" id="praia">obrigatório
+            <figure><img src="figure/praia.jpg" alt=""></figure>
+            <label>Transporte</label>
+            <br><input type="radio" name="transporte" id="van" value="van">
+            <label for="van">Van</label>
+            <input type="radio" name="transporte" id="micro-onibus" value="micro-onibus">
+            <label for="micro-onibus">Micro-Ônibus</label>
+            <input type="radio" name="transporte" id="buggy" value="buggy">
+            <label for="buggy">Buggy</label><br>
+            <label for="medicina_obs">Observações médicas</label><br>
+            <textarea name="medicina_obs" id="medicina_obs" cols="40" rows="4"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+    <br><br>
+    <a href="index.html">Voltar para a página principal</a>
+</body>
+
+</html>
